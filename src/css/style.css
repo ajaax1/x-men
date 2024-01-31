@@ -144,4 +144,20 @@ header {
     .list-of-characters {
         gap: 10px;
     }
+    .big-character {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 700px) {
+    .big-character {
+        width: 300px;
+        height: 300px;
+    }
+    .info-character {
+        font-size: 16px;
+        line-height: 22px;
+        width: 300px;
+    }
 }
